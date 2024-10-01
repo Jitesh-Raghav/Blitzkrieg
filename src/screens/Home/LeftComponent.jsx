@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
 import logo from '../../assets/logo1.png'
+import logoo from '../../assets/logo.png'
 import { ModalContext } from '../../context/ModalContext'
 
 const StyledLeftComponent = styled.div`
@@ -26,7 +27,7 @@ const ContentContainer = styled.div`
 
 const Logo = styled.img`
     width: 250px;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
 `
 
 const MainHeading = styled.h1`
@@ -72,7 +73,9 @@ const LeftComponent = () => {
     return (
         <StyledLeftComponent>
             <ContentContainer>
+           
                 <Logo src={logo} alt="" />
+               
                 <MainHeading> <span>Blitzkrieg</span></MainHeading>
                 <SubHeading>Code. Compile. Debug.</SubHeading>
                 <AddNewButton onClick={() => openModal({
