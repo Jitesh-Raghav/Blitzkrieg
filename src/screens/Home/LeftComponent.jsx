@@ -25,8 +25,8 @@ const ContentContainer = styled.div`
 `
 
 const Logo = styled.img`
-    width: 165px;
-    margin-bottom: 1rem;
+    width: 250px;
+    margin-bottom: 1.4rem;
 `
 
 const MainHeading = styled.h1`

@@ -80,7 +80,6 @@ const PlayGroundCards = styled.div`
         grid-template-columns: 1fr;
     }    
 `
-
 const Card = styled.div`
     padding: 0.5rem;
     display: flex;
@@ -92,10 +91,11 @@ const Card = styled.div`
     transition: all 0.2s ease-in-out;
 
     &:hover{
-      scale: 1.05;
-      box-shadow: 0 0 8px 0px #989898;
+      border: 1px solid #f97316;  // Orange border
+      box-shadow: 0 0 8px 2px rgba(249, 115, 22, 0.4);  // Light orange shadow
     }
 `
+
 
 const CardContainer = styled.div`
   display: flex;
